@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(21, 43, 237, 0.6054796918767507) 0%, rgba(21, 43, 237, 0.6110819327731092) 50%, rgba(21, 43, 237, 0.6110819327731092) 100%);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo-devclub {
+    display: flex;
+    position: fixed;
+    left: 20px;
+    bottom: 10px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.img-pedra-paper-tesoura {
+    display: flex;
+    position: absolute;
+    margin-bottom: 520px;
+    justify-content: center;
+    height: 250px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #73FFC7;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    padding: 5px;
+    font-size: 70px;
+    cursor: pointer;
+    border-width: 3.5px;
+    border-style: double;
+    border-color: black;
+    border-radius: 10px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: #ff7200;
+}
+
+#paper {
+    background-color: #0022ff;
+}
+
+#scissors {
+    background-color: #28d754;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.score-1 span {
+    color: #e4ce0af3;
+    font-size: 45px;
+}
+
+.score-pc span {
+    color: rgba(72, 18, 219, 0.911);
+    font-size: 45px;
+}
